@@ -1,5 +1,10 @@
 # Token2IDR
-Estimate token value in IDR
+Estimate token value in IDR, powered by Shapeshift API and Bitcoin.co.id API. BTC to IDR conversion fee is 0.3% and IDR withdraw fee is 1%.
+
+## Setup
+```
+$ npm install
+```
 
 ## Usage
 ```
