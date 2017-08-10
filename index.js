@@ -7,10 +7,10 @@ const url = {
     btcid: 'https://vip.bitcoin.co.id/api/btc_idr/ticker'
 }
 
-if (!process.argv[1] || !process.argv[2]) process.exit(1);
+if (!process.argv[2] || !process.argv[3]) process.exit(1);
 
-let source_value = process.argv[1];
-let source_coin = process.argv[2].toUpperCase();
+let source_value = process.argv[2];
+let source_coin = process.argv[3].toUpperCase();
 let idr_data = null;
 let ss_data = null;
 
