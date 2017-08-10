@@ -1,14 +1,14 @@
 # Token2IDR
 Estimate token value in IDR, powered by Shapeshift API and Bitcoin.co.id API. BTC to IDR conversion fee is 0.3% and IDR withdraw fee is 1%.
 
-## Setup
+## Installation
 ```
-$ npm install
+$ npm install -g token2idr
 ```
 
 ## Usage
 ```
-$ node index.js 1 eth
+$ token2idr 1 eth
 Source   : 1 ETH
 Rate     : 0.0873153 BTC/ETH
 Fee      : 0.002 BTC
@@ -17,7 +17,7 @@ IDR/BTC  : IDR 32754600
 Converted: IDR 2786085
 Withdraw : IDR 2758224
 
-$ node index.js 10 gno
+$ token2idr 10 gno
 Source   : 10 GNO
 Rate     : 0.08671725 BTC/GNO
 Fee      : 0.002 BTC
@@ -26,7 +26,7 @@ IDR/BTC  : IDR 32800000
 Converted: IDR 28292525
 Withdraw : IDR 28009599
 
-$ node index.js 23.765 xmr
+$ token2idr 23.765 xmr
 Source   : 23.765 XMR
 Rate     : 0.01614359 BTC/XMR
 Fee      : 0.002 BTC

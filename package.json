@@ -1,8 +1,11 @@
 {
-  "name": "shapeshifting",
+  "name": "token2idr",
   "version": "1.0.0",
-  "description": "Convert any coins supported by ShapeShift.io to BTC and IDR",
+  "description": "Estimate any tokens/coins value in Indonesian Rupiah (IDR). Powered by Shapeshift.io API and Bitcoin.co.id API.",
   "main": "index.js",
+  "bin": {
+    "token2idr": "index.js"
+  },
   "scripts": {
     "test": "exit 0"
   },
@@ -12,10 +15,11 @@
     "bitcoin",
     "btc",
     "altcoin",
-    "blockchain"
+    "token",
+    "rupiah"
   ],
   "author": "Surya Handika Putratama <ubunteroz@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "bluebird": "^3.5.0",
     "request": "^2.81.0"
