@@ -1,6 +1,6 @@
 {
   "name": "token2idr",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Estimate any tokens/coins value in Indonesian Rupiah (IDR). Powered by Shapeshift.io API and Bitcoin.co.id API.",
   "main": "index.js",
   "bin": {
